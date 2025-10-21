@@ -55,7 +55,7 @@ DATABASE_URL=postgresql://postgres:123@db:5432/test_tremplin
 **Lancer toute l’application avec Docker**
 ```bash
 docker compose up --build
-```
+````
 
 5. **Accéder à l'application**
 
@@ -103,4 +103,7 @@ Vite : Build tool rapide pour le développement </br>
 Oui, j'utilise Docker régulièrement pour : </br>
 Faciliter le déploiement </br>
 Isoler les services
-````
+
+```
+
+```

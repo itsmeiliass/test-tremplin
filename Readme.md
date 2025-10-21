@@ -31,7 +31,7 @@ git clone https://github.com/itsmeiliass/test-tremplin
 cd test-tremplin
 ```
 
-**Configurer les variables d’environnement**
+**Configurer les variables d’environnement** </br>
 Créez un fichier .env à la racine du projet
 
      ```bash

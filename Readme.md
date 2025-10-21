@@ -9,9 +9,9 @@
 
 ---
 
-## 📸 Screenshot
+## Screenshot
 
-![Contact Form Screenshot](./screenshot.png)
+![Contact Form Screenshot](./image.png)
 
 ---
 
@@ -64,7 +64,8 @@ npm run dev
 
 ---
 
-#Configuration
+## Configuration
+
 **Variables d'environnement**
 
 Créez un fichier .env dans le dossier backend :
@@ -78,7 +79,9 @@ DB_PASSWORD=password
 DB_PORT=5432
 ```
 
-**Questions & Réponses**
+---
+
+## Questions & Réponses
 
 **Difficultés rencontrées**
 Intégration précise du design : Reproduire exactement le layout de l'image fournie a nécessité une attention particulière aux détails CSS

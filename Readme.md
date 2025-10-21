@@ -19,47 +19,48 @@
 
 ### Prérequis
 
-- Node.js (v16 ou supérieur)
-- Docker et Docker Compose
-- PostgreSQL
-- npm
+- Docker & Docker Compose installés
+- Git installé
 
 ### Installation
 
-1. **Cloner le repository**
+**Cloner le dépôt**
 
 ```bash
 git clone https://github.com/itsmeiliass/test-tremplin
-
+cd test-tremplin
 ```
 
-2. **Démarrer la base de données**
+**Configurer les variables d’environnement**
+Créez un fichier .env à la racine du projet
 
+     ```bash
+
+# Server Configuration
+
+PORT=5000
+NODE_ENV=development
+
+# Database Configuration
+
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=123
+POSTGRES_DB=test_tremplin
+DB_HOST=db
+DB_PORT=5432
+DATABASE_URL=postgresql://postgres:123@db:5432/test_tremplin
+
+````
+
+**Lancer toute l’application avec Docker**
 ```bash
-docker-compose up -d
-```
-
-3. **Backend**
-
-```bash
-cd backend
-npm install
-cp .env.example .env
-npm run dev
-```
-
-4. **Frontend**
-
-```bash
-cd ../frontend
-npm install
-npm run dev
+docker compose up --build
 ```
 
 5. **Accéder à l'application**
 
 ```bash
-   Ouvrez votre navigateur sur http://localhost:5173
+Ouvrez votre navigateur sur http://localhost:3000
 ```
 
 ---
@@ -102,3 +103,4 @@ Vite : Build tool rapide pour le développement </br>
 Oui, j'utilise Docker régulièrement pour : </br>
 Faciliter le déploiement </br>
 Isoler les services
+````

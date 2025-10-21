@@ -34,7 +34,7 @@ cd test-tremplin
 **Configurer les variables d’environnement** </br>
 Créez un fichier .env à la racine du projet
 
-     ```bash
+```bash
 
 # Server Configuration
 
@@ -50,12 +50,13 @@ DB_HOST=db
 DB_PORT=5432
 DATABASE_URL=postgresql://postgres:123@db:5432/test_tremplin
 
-````
+```
 
 **Lancer toute l’application avec Docker**
+
 ```bash
 docker compose up --build
-````
+```
 
 5. **Accéder à l'application**
 
@@ -103,7 +104,3 @@ Vite : Build tool rapide pour le développement </br>
 Oui, j'utilise Docker régulièrement pour : </br>
 Faciliter le déploiement </br>
 Isoler les services
-
-```
-
-```

@@ -91,14 +91,14 @@ React hot toast - pour l'alerte de Success .
 
 **Choix des outils** </br>
 
-React : Interface utilisateur moderne et réactive
-Express : API REST simple et efficace
-PostgreSQL : Base de données robuste et relationnelle
-Docker : Isolation et reproductibilité des environnements
-Vite : Build tool rapide pour le développement
+React : Interface utilisateur moderne et réactive </br>
+Express : API REST simple et efficace </br>
+PostgreSQL : Base de données robuste et relationnelle </br>
+Docker : Isolation et reproductibilité des environnements </br>
+Vite : Build tool rapide pour le développement </br>
 
 **Utilisation de Docker** </br>
 
-Oui, j'utilise Docker régulièrement pour
-Faciliter le déploiement
+Oui, j'utilise Docker régulièrement pour : </br>
+Faciliter le déploiement </br>
 Isoler les services

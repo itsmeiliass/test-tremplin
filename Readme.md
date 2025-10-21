@@ -83,13 +83,13 @@ DB_PORT=5432
 
 ## Questions & Réponses
 
-**Difficultés rencontrées**
+**Difficultés rencontrées** </br>
 Intégration précise du design : Reproduire exactement le layout de l'image fournie a nécessité une attention particulière aux détails CSS
 
-**Nouveaux outils découverts**
+**Nouveaux outils découverts** </br>
 React hot toast - pour l'alerte de Success .
 
-**Choix des outils**
+**Choix des outils** </br>
 
 React : Interface utilisateur moderne et réactive
 Express : API REST simple et efficace
@@ -97,7 +97,7 @@ PostgreSQL : Base de données robuste et relationnelle
 Docker : Isolation et reproductibilité des environnements
 Vite : Build tool rapide pour le développement
 
-**Utilisation de Docker**
+**Utilisation de Docker** </br>
 
 Oui, j'utilise Docker régulièrement pour
 Faciliter le déploiement
